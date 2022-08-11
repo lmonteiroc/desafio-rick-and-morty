@@ -1,0 +1,22 @@
+.logo{
+    display: flex;
+    margin-bottom: var(--logo-rodape-rodape-logo-margin-bottom);
+    width:var( --logo-rodape-rodape-logo-width);
+    
+    }
+    .rodape{
+        margin-bottom:var(--logo-rodape-rodape-margin-bottom);
+        margin-top: var(--logo-rodape-rodape-margin-top);
+        height:var( --logo-rodape-rodape-height);
+        width: var(--logo-rodape-rodape-width);
+        border-radius: var(--logo-rodape-rodape-border-radius);
+        box-shadow: var(--logo-rodape-rodape-box-shadow);
+    }
+    
+    @media only screen and (max-width: 600px) {
+       
+      .rodape{
+        margin-bottom:var(--logo-rodape-max-width-margin-bottom);
+        margin-top:var( --logo-rodape-max-width-margin-top);
+      } 
+      }

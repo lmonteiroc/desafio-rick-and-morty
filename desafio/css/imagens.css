@@ -1,0 +1,39 @@
+.muda-imagens{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens{
+   
+    display: flex; 
+    position: relative;  
+}
+
+.image-api{
+
+   height: var(--imagens-image-api-height);
+   width:var( --imagens-image-api-width);
+   margin-bottom:var(--imagens-image-api-margin-bottom);
+    border-radius: var( --imagens-image-api-border-radius);
+    box-shadow: var( --imagens-image-api-box-shadow);
+    border: var( --borda-image-api-border);
+}
+.image-api:hover{
+    box-shadow: var(--imagens-image-api-hover-box-shadow);
+   border: none;
+}
+
+
+
+.informacao{
+   margin-top:var(--imagens-informacao-top);
+   position: absolute;
+  
+}
+@media only screen and (max-width: 600px) {
+    .image-api {
+      height:var(--imagens-image-api-max-width-height);
+      width:var( --imagens-image-api-max-width-width);
+    }
+   
+  }

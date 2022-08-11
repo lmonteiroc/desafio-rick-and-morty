@@ -1,0 +1,27 @@
+.btn{
+    border-radius:var(  --botao-btn-border-radius);
+    margin-top:var( --botao-btn-margin-top);
+    width:var(--botao-btn-width);
+    height:var(--botao-btn-height);
+    background-color:var(--azul-claro);
+    border: none;
+    color:var(--vermelho) ;
+    font-size: larger;
+    text-shadow:var( --botao-btn-border-radius-text-shadow);
+    cursor: pointer;
+}
+.btn:hover{
+    color:var(--branco);
+    text-shadow: var( --botao-btn-border-radius-text-shadow);
+    background: var(--botao-btn-hover-background);
+}
+
+@media only screen and (max-width: 600px) {
+    .btn{
+        width: var( --botao-btn-max-width-width);
+        height: var(--botao-btn-max-width-height);
+        font-size: smaller ;
+
+        
+    }
+}
