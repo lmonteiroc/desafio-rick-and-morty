@@ -23,6 +23,7 @@
         });
     }
 }
+mudaPersonagem()
 
  
 /*function mudaPersonagem(){
