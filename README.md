@@ -1,4 +1,4 @@
-# desafio-trick-and-morty
+# desafio-Rick-and-Morty
 primeiro-desafio
 Sobre o Desafio 
 
